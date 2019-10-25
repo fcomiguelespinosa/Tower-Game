@@ -8,9 +8,11 @@ public class Enemy : MonoBehaviour
 		gameObject.GetComponent<Animator>().SetBool("SuccessShoot",false);
 	}
 	
-	void OnCollisionEnter2D(Collision2D collision)
+	void OnTriggerEnter2D(Collider2D collider)
     {
 		gameObject.GetComponent<Animator>().SetBool("SuccessShoot",true);
+		Destroy(gameObject.GetComponent<Collider2D>(), 0.3f);
+		Destroy(collider.gameObject);
     }
 	
 	void Update()

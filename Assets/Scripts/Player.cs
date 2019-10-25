@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
 				
 				GameObject bullet_temp;
     			bullet_temp = Instantiate(Bullet,Emiter.transform.position,Emiter.transform.rotation) as GameObject;
-    			
+    		
     			Rigidbody2D Temp_RigidBody;
     			Temp_RigidBody = bullet_temp.GetComponent<Rigidbody2D>();
     			Temp_RigidBody.AddForce(transform.up * force_bullet);
