@@ -73,9 +73,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="646.06092"
-     inkscape:cy="798.34167"
+     inkscape:zoom="1"
+     inkscape:cx="348.40621"
+     inkscape:cy="633.00743"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -350,5 +350,32 @@
        transform="scale(0.26458333)"
        inkscape:export-xdpi="89.35849"
        inkscape:export-ydpi="89.35849" />
+    <rect
+       style="fill:#000080;stroke-width:0.21075232"
+       id="rect3823"
+       width="94.292686"
+       height="8.6060781"
+       x="56.424232"
+       y="110.72901"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#000080;stroke-width:0.26458332"
+       id="path4630"
+       cx="56.985497"
+       cy="115.03205"
+       rx="6.1739244"
+       ry="4.3030348"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:#000080;stroke-width:0.26458332"
+       id="path4630-8"
+       cx="150.15565"
+       cy="115.03205"
+       rx="6.1739244"
+       ry="4.3030348"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>

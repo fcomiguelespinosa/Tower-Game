@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
 	
 	void OnTriggerEnter2D(Collider2D collider)
     {
+		gameObject.GetComponent<Rigidbody2D>().Sleep();
 		gameObject.GetComponent<Animator>().SetBool("SuccessShoot",true);
 		Destroy(gameObject.GetComponent<Collider2D>(), 0.3f);
 		Destroy(collider.gameObject);
